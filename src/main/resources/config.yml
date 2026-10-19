@@ -1,0 +1,29 @@
+# BlackMarket Configuration
+
+settings:
+  always-open: false
+  random-open: true
+  random-pick: false
+  random-pick-amount: 5
+  stock-market: false
+  open-duration: 30m
+  limit-per-player: 2
+  player-purchase-limit: 2
+
+gui-effects:
+  enabled: true
+  animation: slide
+  speed: 2
+
+effects:
+  firework: true
+  sound: true
+  title: true
+  broadcast: true
+
+discord:
+  enabled: false
+  webhook-url: "YOUR_WEBHOOK_URL_HERE"
+  bot-name: "BlackMarket Shop"
+  bot-avatar-url: ""
+  channel-id: "YOUR_CHANNEL_ID_HERE"

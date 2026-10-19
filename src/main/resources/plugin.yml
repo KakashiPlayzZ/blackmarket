@@ -1,0 +1,26 @@
+name: BlackMarket
+version: '${version}'
+main: com.kakashiplayz.blackmarket.BlackMarket
+api-version: '1.13'
+authors: [KakashiPlayz]
+description: Advanced GUI-based rare/illegal item shop plugin.
+
+depend: []
+softdepend: [Vault, PlaceholderAPI, Citizens]
+
+commands:
+  blackmarket:
+    description: Main command for BlackMarket
+    usage: /blackmarket [help|editor|reload]
+    aliases: [nm, bm]
+
+permissions:
+  blackmarket.use:
+    description: Allows opening the BlackMarket shop GUI
+    default: true
+  blackmarket.editor:
+    description: Allows using the BlackMarket GUI editor
+    default: op
+  blackmarket.reload:
+    description: Allows reloading the BlackMarket plugin
+    default: op

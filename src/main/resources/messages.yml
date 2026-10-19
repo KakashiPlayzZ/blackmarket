@@ -1,0 +1,7 @@
+# Messages Configuration
+
+shop-open: "&aBlackMarket is now open!"
+shop-close: "&cBlackMarket is now closed!"
+shop-currently-closed: "&cBlackMarket is Currently Closed, Visit Later It May Be Available Later"
+no-permission: "&cNo permission"
+limit-reached: "&cLimit reached"

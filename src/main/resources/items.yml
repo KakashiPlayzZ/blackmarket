@@ -1,0 +1,17 @@
+# Items Configuration
+# Define the items that will be sold in the BlackMarket GUI.
+
+items:
+  dragon_egg:
+    # Slot in the GUI (0-based)
+    slot: 10
+    material: "DRAGON_EGG"
+    name: "&5&lDragon Egg"
+    lore:
+      - "&7A very rare item."
+      - ""
+      - "&7Price: &a$100,000"
+      - "&7Limit per player: &c1"
+    price: 100000
+    limit: 1
+    permission: "blackmarket.item.dragon_egg" # Optional, leave blank for no requirement
